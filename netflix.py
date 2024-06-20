@@ -7,8 +7,6 @@ def print_banner(rmxThePHREAK):
 ██████╔╝╚█████╔╝██║░╚═╝░██║██║░╚═╝░██║██║░░██║██║░░██║
 ╚═════╝░░╚════╝░╚═╝░░░░░╚═╝╚═╝░░░░░╚═╝╚═╝░░╚═╝╚═╝░░╚═╝
     """
-    print(banner)
-    print(text)
 
 import mechanize
 import time
