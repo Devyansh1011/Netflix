@@ -17,7 +17,7 @@ br.set_handle_equiv(True)
 br.set_handle_redirect(True)
 br.set_handle_referer(True)
 br.set_handle_robots(False)
-br.addheaders = [('User-agent', 'Firefox')]
+br.addheaders = [('User-agent', 'Chrome')]
 try:
 	with open("listAcc.txt", "r") as filestream:
 		for line in filestream:
